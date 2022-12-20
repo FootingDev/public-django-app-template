@@ -1,0 +1,24 @@
+casts:
+  - key: public-django-app-template
+    label: Public Django App Template
+    help: For creating open source Django apps
+
+    dirs:
+      - "{{ footing.project_name }}"
+
+    parameters:
+      - key: repo_name
+        label: Repository Name
+        help: The name of the repository and pip package.
+        type: string
+
+      - key: module_name
+        label: Module Name
+        help: Importable Python module name.
+        type: string
+
+      - key: short_description
+        label: Short Description
+        help: A short description of the project.
+        type: string
+        multiline: True

@@ -1,4 +1,4 @@
-casts:
+molds:
   - key: public-django-app-template
     label: Public Django App Template
     help: For creating open source Django apps
